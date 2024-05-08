@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  kamalhosen.com - v3
+</h1>
+<p align="center">
+  The third iteration of <a href="https://v3.kamalhosen.com" target="_blank">kamalhosen.com</a> built with <a href="https://www.nextjs.org/" target="_blank">Next.js</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>
+</p>
 
-## Getting Started
+![demo](https://raw.githubusercontent.com/ikamal7/v3/main/src/app/demo.png)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚨 Forking this repo (please read!)
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### TL;DR
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Yes, you can fork this repo. Please give me proper credit by linking back to [kamalhosen.com](https://kamalhosen.com). Thanks!
 
-## Learn More
+1. Fork the repository on GitHub.
+2. Clone the forked repository to your local machine using Git:
 
-To learn more about Next.js, take a look at the following resources:
+    ```bash
+    git clone https://github.com/your-username/v3.git
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Installation & Set Up
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Navigate to the project directory and install the required dependencies using npm:
 
-## Deploy on Vercel
+    ```bash
+    cd v3
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## </> Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+## 📝 Changing Content
+
+1. Open the project directory in your code editor.
+2. Navigate to `src/app/contents` directory.
+3. Modify the JSON object files (`*.js`) to update your portfolio content.
+
+## ✅ Building for Production
+
+1. To build the project for production:
+
+    ```bash
+    npm run build
+    ```
+
+## 🚀 Run in Production Mode
+
+1. Once the build is complete, start the production server:
+
+    ```bash
+    npm start
+    ```
